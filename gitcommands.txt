@@ -5,3 +5,6 @@ Git Commands
 'git commit -m <file>...' (Used to commit the changes to local repository from where it can be pushed to remote repository, Github)
 'git diff --staged' (This will give the changes in the staged area)
 'git push -u origin master' (This will push the changes committed to the remote repository)
+'git diff --staged --no-renames' (If we are checking changes in multiple files, then this command tells git to treat them seperately, otherwise git thinks that one 
+								  file is renamed for other)
+'git diff' (This command will show the difference in file that is not in staging area)
