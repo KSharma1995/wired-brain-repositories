@@ -7,4 +7,6 @@ Git Commands
 'git push -u origin master' (This will push the changes committed to the remote repository)
 'git diff --staged --no-renames' (If we are checking changes in multiple files, then this command tells git to treat them seperately, otherwise git thinks that one 
 								  file is renamed for other)
-'git diff' (This command will show the difference in file that is not in staging area)
+'git diff' (This command will show the difference in file that is in modified state and is not added to staging area yet)
+'git diff --cached' (This command will show the differences in staged and committed state of file)
+'git commit -a -m '<<commit msg>>'' (This will directly commit the changes from modified state to committed state)
