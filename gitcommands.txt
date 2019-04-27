@@ -1,5 +1,8 @@
 Git Commands
 
+'git config user.name "<<UserName>>"' (Used to set the user name)
+'git config user.email "<<Email>>"' (Used to set the email)
+'git config --global' (Used to set the config file globally, that is used for all repositories)
 'git status' (Used to check the status of the local repository like any changes to commit, untracked files, staged files ready to be committed)
 'git add <file>...' (Used to add the modified file to staging area ready to be committed)
 'git commit -m <file>...' (Used to commit the changes to local repository from where it can be pushed to remote repository, Github)
