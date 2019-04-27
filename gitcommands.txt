@@ -2,3 +2,4 @@ Git Commands
 
 'git status' (Used to check the status of the local repository like any changes to commit, untracked files, staged files ready to be committed)
 'git add <file>...' (Used to add the modified file to staging area ready to be committed)
+'git commit -m <file>...' (Used to commit the changes to local repository from where it can be pushed to remote repository, Github)
