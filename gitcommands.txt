@@ -18,5 +18,9 @@ Git Commands
 'git log --oneline' (This will show the commits in one line, where the id and commit message is displayed for each commit)
 'git log --stat' (This will show the detailed histroy of all commits along with the changes that are made in file at each commit)
 'git log --patch' (This will display complete info of all commits)
+'git rm <<file>>...' (This will remove the file from local repository, from committed snapshot)
+'git rm --cached <<file>>...' (This will keep the file in local repository but will be in untracked state)
+'git mv <<old_file_name>> <<new_file_name>>' (This command is used to rename a file)
+
 
 
