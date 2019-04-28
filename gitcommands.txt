@@ -13,3 +13,10 @@ Git Commands
 'git diff' (This command will show the difference in file that is in modified state and is not added to staging area yet)
 'git diff --cached' (This command will show the differences in staged and committed state of file)
 'git commit -a -m '<<commit msg>>'' (This will directly commit the changes from modified state to committed state)
+'git log' (This will show the commits made to the file in past, commit history)
+'git log -n' (This will show n commits info, starting from the latest one)
+'git log --oneline' (This will show the commits in one line, where the id and commit message is displayed for each commit)
+'git log --stat' (This will show the detailed histroy of all commits along with the changes that are made in file at each commit)
+'git log --patch' (This will display complete info of all commits)
+
+
