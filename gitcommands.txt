@@ -26,6 +26,7 @@ For experimenting with branching go to : http://git-school.github.io/visualizing
 
 'git checkout -b <<branch_name>>' (This command tells git to make a new branch out of master and make future commits on that branch, -b tells git to create new branch)
 'git checkout <<branch_name>>' (This command tells git to checkout to an existing branch, where future commits will be made)
+'git merge <<branch_name>>' (This command merges your new branch back to master branch, you must checkout master branch first)
 
 
 

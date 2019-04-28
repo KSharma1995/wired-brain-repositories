@@ -1,0 +1,1 @@
+This file text will be saved in the new branch named as v1, as a new branch is created from master at a point where there is no text in this file.
