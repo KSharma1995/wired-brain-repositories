@@ -22,5 +22,10 @@ Git Commands
 'git rm --cached <<file>>...' (This will keep the file in local repository but will be in untracked state)
 'git mv <<old_file_name>> <<new_file_name>>' (This command is used to rename a file)
 
+For experimenting with branching go to : http://git-school.github.io/visualizing-git/
+
+'git checkout -b <<branch_name>>' (This command tells git to make a new branch out of master and make future commits on that branch, -b tells git to create new branch)
+'git checkout <<branch_name>>' (This command tells git to checkout to an existing branch, where future commits will be made)
+
 
 
